@@ -1,10 +1,11 @@
 <div align="center">
 
-<img src="static/logo.png" alt="logo" width="150" style="border-radius: 20%;"/>
+<img src="static/logo.png" alt="logo" width="150" style="border-radius: 20%;margin-bottom:10px;"/>
 
 ![](https://img.shields.io/badge/license-Apache2.0-blue) ![](https://img.shields.io/badge/version-1.0-brightgreen) [![](https://img.shields.io/badge/Author-Edit%20Mr.-blue)](https://edit-mr.github.io)
 
-使用`[[]]`或`{{}}`輕鬆連結到維基百科
+使用`[[]]`或`{{}}`輕鬆連結到維基百科  
+可邀請至群組
 
 [加入好友](https://line.me/R/ti/p/%40604fbckm)  
 id: `@604fbckm
