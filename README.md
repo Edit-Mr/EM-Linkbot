@@ -2,7 +2,7 @@
 
 <img src="static/logo.png" alt="logo" width="150" style="border-radius: 20%;"/>
 
-# EM Linkbot
+---
 
 ![](https://img.shields.io/badge/license-Apache2.0-blue) ![](https://img.shields.io/badge/version-1.0-brightgreen) [![](https://img.shields.io/badge/Author-Edit%20Mr.-blue)](https://edit-mr.github.io)
 
