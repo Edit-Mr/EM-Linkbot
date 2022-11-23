@@ -1,38 +1,28 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: 問題反饋
+關於：創建報告以幫助我們改進
+標題： ''
+標籤： ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**描述錯誤**
+對錯誤是什麼的清晰簡潔的描述。
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**重現**
+重現該行為的步驟：
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**預期行為**
+對您預期發生的事情的清晰簡潔的描述。
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**截圖**
+如果方便，請添加屏幕截圖以幫助解釋您的問題。
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**設備（請填寫以下信息）：**
+  - 設備：[例如 iPhone 6]
+  - 操作系統：[例如 iOS8.1]
+  - 瀏覽器 [例如 股票瀏覽器，野生動物園]
+  - 版本 [例如 22]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+**備註**
+在此處添加有關該問題的任何其他上下文。
