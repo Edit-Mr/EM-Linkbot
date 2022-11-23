@@ -1,5 +1,5 @@
 function doPost(e) {
-    var channelToken = "5/YvJki6o1d6S8hQT+Dz72Ocmgy9tCK28eG4OaixW39wUBOaMSEtDP6MdFEuNiBm6piuL/1elOdpBZkfcC1NbJXHMoIVVRhKpGArbnOSiRipvvAiBJl0Xp71yENNhdToZ80fmR4x/8EAzy1F+nfOPwdB04t89/1O/w1cDnyilFU=";
+    var channelToken = "";
     var value = JSON.parse(e.postData.contents);
     try {
       var SpreadSheet = SpreadsheetApp.openById("1wAL-Nn6zq4ERP1zZQRQILWQcdwBsNHQh5vwz9H3Yov8");
