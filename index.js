@@ -1,5 +1,5 @@
 function doPost(e) {
-    var channelToken = "";
+    var channelToken = "5/YvJki6o1d6S8hQT+Dz72Ocmgy9tCK28eG4OaixW39wUBOaMSEtDP6MdFEuNiBm6piuL/1elOdpBZkfcC1NbJXHMoIVVRhKpGArbnOSiRipvvAiBJl0Xp71yENNhdToZ80fmR4x/8EAzy1F+nfOPwdB04t89/1O/w1cDnyilFU=";
     var value = JSON.parse(e.postData.contents);
     try {
       var SpreadSheet = SpreadsheetApp.openById("1wAL-Nn6zq4ERP1zZQRQILWQcdwBsNHQh5vwz9H3Yov8");
@@ -21,6 +21,7 @@ function doPost(e) {
           switch (type) {
             case "message":
               var a = event.message.text;
+              a = a.replace("","_").replace("“","%E2%80%9C").replace("”","%E2%80%9D").replace("\xE2\x80\x8E","%E2%80%A7").replace("‧","%E2%80%A7").replace("\\","%22");
               if ((a.indexOf("[[") > -1 && a.indexOf("]]") > -1) || (a.indexOf("{{") > -1 && a.indexOf("}}") > -1)) {
                 var response = [];
                 var list = a.split("[[");
