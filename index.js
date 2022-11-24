@@ -34,10 +34,88 @@ function doPost(e) {
                   text = list[i];
                   response.push("https://zh.m.wikipedia.org/wiki/Template:" + text.split("}}")[0]);
                 }
-                meg = [{
-                  type: "text",
-                  text: response.join("\n")
-                }];
+                meg = [[
+                  {
+                    "type": "flex",
+                    "altText": "Search REsult",
+                    "contents": {
+                      "type": "bubble",
+                      "size": "kilo",
+                      "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "EM Linkbot",
+                            "weight": "bold",
+                            "color": "#1DB446",
+                            "size": "sm",
+                            "margin": "none"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Brown Store",
+                            "weight": "bold",
+                            "size": "xxl",
+                            "margin": "none",
+                            "adjustMode": "shrink-to-fit"
+                          },
+                          {
+                            "type": "text",
+                            "text": "hello, world"
+                          },
+                          {
+                            "type": "box",
+                            "layout": "horizontal",
+                            "contents": [
+                              {
+                                "type": "image",
+                                "url": "https://raw.githubusercontent.com/Edit-Mr/EM-Wikibot/main/static/wiki.png",
+                                "size": "30px",
+                                "flex": 1,
+                                "action": {
+                                  "type": "uri",
+                                  "label": "action",
+                                  "uri": "http://linecorp.com/"
+                                }
+                              },
+                              {
+                                "type": "image",
+                                "url": "https://raw.githubusercontent.com/Edit-Mr/EM-Wikibot/main/static/google.png",
+                                "size": "30px",
+                                "action": {
+                                  "type": "uri",
+                                  "label": "action",
+                                  "uri": "http://linecorp.com/"
+                                },
+                                "flex": 1
+                              },
+                              {
+                                "type": "image",
+                                "url": "https://raw.githubusercontent.com/Edit-Mr/EM-Wikibot/main/static/youtube.png",
+                                "size": "30px",
+                                "flex": 1,
+                                "action": {
+                                  "type": "uri",
+                                  "label": "action",
+                                  "uri": "http://linecorp.com/"
+                                }
+                              }
+                            ],
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          }
+                        ]
+                      },
+                      "styles": {
+                        "footer": {
+                          "separator": true
+                        }
+                      }
+                    }
+                  }
+                ]];
                 Sheet.getRange(LastRow + 1, 6).setValue(meg);
                 replyMsg(replyToken, meg, channelToken);
               } else Sheet.getRange(LastRow + 1, 6).setValue("No reply");

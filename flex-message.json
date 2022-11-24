@@ -1,0 +1,90 @@
+{
+    "type": "bubble",
+    "size": "kilo",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "EM Linkbot",
+          "weight": "bold",
+          "color": "#1DB446",
+          "size": "sm",
+          "margin": "none"
+        },
+        {
+          "type": "text",
+          "text": "一氧化二氫",
+          "weight": "bold",
+          "size": "xxl",
+          "margin": "sm",
+          "adjustMode": "shrink-to-fit"
+        },
+        {
+          "type": "text",
+          "text": "水（化學式：H2O）是由氫、氧兩種元素經過化學反應後組成的無機物，在常溫常壓下為無色無味的透明液體。水是地球上最常見的物質之一，是包括人類在內所有生命生存的重要資源，也是生物體最重要的組成部分。水在生命演化中有重要的作用。人體內有百分之七十是水。水在科學、哲學、宗教、文學、美術、體育、神話等中都有所體現。",
+          "wrap": true
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://raw.githubusercontent.com/Edit-Mr/EM-Wikibot/main/static/wiki.png",
+              "size": "30px",
+              "flex": 1,
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "http://linecorp.com/"
+              }
+            },
+            {
+              "type": "image",
+              "url": "https://raw.githubusercontent.com/Edit-Mr/EM-Wikibot/main/static/google.png",
+              "size": "30px",
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "http://linecorp.com/"
+              },
+              "flex": 1
+            },
+            {
+              "type": "image",
+              "url": "https://raw.githubusercontent.com/Edit-Mr/EM-Wikibot/main/static/youtube.png",
+              "size": "30px",
+              "flex": 1,
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "http://linecorp.com/"
+              }
+            }
+          ],
+          "justifyContent": "flex-start",
+          "alignItems": "flex-start",
+          "margin": "md"
+        },
+        {
+          "type": "separator",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "text": "一氧化二氫",
+          "weight": "bold",
+          "size": "xxl",
+          "margin": "md",
+          "adjustMode": "shrink-to-fit"
+        }
+      ]
+    },
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    }
+  }
