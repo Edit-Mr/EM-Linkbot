@@ -62,10 +62,21 @@
                 "label": "action",
                 "uri": "http://linecorp.com/"
               }
+            },
+            {
+              "type": "image",
+              "url": "https://raw.githubusercontent.com/Edit-Mr/EM-Wikibot/main/static/searx.png",
+              "size": "30px",
+              "flex": 1,
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "http://linecorp.com/"
+              }
             }
           ],
-          "justifyContent": "flex-start",
-          "alignItems": "flex-start",
+          "justifyContent": "center",
+          "alignItems": "center",
           "margin": "md"
         },
         {
